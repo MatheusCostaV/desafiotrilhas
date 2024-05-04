@@ -1,0 +1,24 @@
+Início:
+O usuário acessa a página do formulário.
+Formulário exibido:
+O sistema exibe o formulário com os campos para preenchimento.
+Formulário preenchido:
+O usuário preenche os campos do formulário.
+Enviar clicado:
+O usuário clica no botão "Enviar" para submeter os dados.
+O sistema captura os dados preenchidos nos campos do formulário.
+Dados válidos:
+O sistema valida os dados preenchidos pelo usuário.
+Se os dados forem válidos:
+Os dados são enviados para processamento.
+O sistema exibe uma mensagem de confirmação de envio.
+O sistema imprime os dados enviados no console.
+Dados inválidos:
+Se algum campo estiver vazio ou com formato inválido:
+O sistema exibe mensagens de erro ao lado dos campos inválidos.
+O usuário deve corrigir os campos inválidos antes de enviar novamente.
+Cancelar clicado:
+O usuário clica no botão "Cancelar" para limpar os campos do formulário.
+O sistema limpa todos os campos do formulário.
+Fim:
+O processo é concluído e o sistema aguarda novas interações do usuário.

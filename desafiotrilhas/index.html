@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Inscrição</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            min-height: 100dvh;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            background-color: #F37820;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            background-color: white;
+            padding: 20px;
+            max-height: 80vh;
+            border-radius: 5px;
+        }
+        .form-container input[type=text],
+        .form-container input[type=email],
+        .form-container input[type=tel],
+        .form-container input[type=number] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .form-container button {
+            background-color: #F37820;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .form-container button:hover {
+            opacity: 0.8;
+        }
+        .image-container {
+            width: 50%;
+            background-color: #F37820;
+    
+            background-image: url('./img/imagemtrilhas.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Inscreva-se</h1>
+        <form>
+            <input type="text" placeholder="Nome Completo">
+            <input type="email" placeholder="E-mail">
+            <input type="number" placeholder="CPF">
+            <input type="tel" placeholder="Telefone">
+            <input type="text" placeholder="Endereço">
+            <input type="text" placeholder="Cidade">
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </form>
+        <p>*Atenção: Todos os dados acima são obrigatórios</p>
+    </div>
+    <div class="image-container">
+    
+    </div>
+</body>
+</html>
